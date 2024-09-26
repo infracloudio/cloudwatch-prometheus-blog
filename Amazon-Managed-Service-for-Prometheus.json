@@ -1,0 +1,78 @@
+{
+	"Name": "Amazon Managed Service for Prometheus",
+	"Total Cost": {
+		"monthly": "7929.53",
+		"upfront": "0.00",
+		"12 months": "95154.36"
+	},
+	"Metadata": {
+		"Currency": "USD",
+		"Locale": "en_US",
+		"Created On": "9/26/2024",
+		"Legal Disclaimer": "AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services.",
+		"Share Url": "https://calculator.aws/#/estimate?id=bf451af9d87ac89d6e23956d448e8e9154008277"
+	},
+	"Groups": {
+		"Services": [
+			{
+				"Service Name": "Amazon Managed Service for Prometheus",
+				"Description": "Amazon Managed Prometheus ",
+				"Region": "US East (Ohio)",
+				"Status": "",
+				"Service Cost": {
+					"monthly": "7113.93",
+					"upfront": "0.00",
+					"12 months": "85367.14"
+				},
+				"Properties": {
+					"Average Number of Dashboard users per day": "100",
+					"Number of Prometheus rules": "10",
+					"Average number of queries per day per dashboard user": "1440",
+					"Average samples per query for Monitoring queries": "100000",
+					"Average samples per query for Alerting queries": "100000",
+					"Average active time series": "1500000",
+					"Total Monitoring Samples": "438048000000",
+					"Total Alerting Samples": "43800000000",
+					"Number of collectors": "1"
+				}
+			},
+			{
+				"Service Name": "Amazon Managed Grafana",
+				"Description": "Amazon Managed Grafana",
+				"Region": "US East (Ohio)",
+				"Status": "",
+				"Service Cost": {
+					"monthly": "509.00",
+					"upfront": "0.00",
+					"12 months": "6108.00"
+				},
+				"Properties": {
+					"Number of active editors/administrators": "1 per workspace per month",
+					"Number of active viewers": "100 per workspace per month"
+				}
+			},
+			{
+				"Service Name": "Amazon EC2 ",
+				"Description": "Otel Agent",
+				"Region": "US East (Ohio)",
+				"Status": "",
+				"Service Cost": {
+					"monthly": "306.60",
+					"upfront": "0.00",
+					"12 months": "3679.20"
+				},
+				"Properties": {
+					"Tenancy": "Shared Instances",
+					"Operating system": "Linux",
+					"Workload": "Consistent, Number of instances: 100",
+					"Advance EC2 instance": "t4g.micro",
+					"Pricing strategy": "3yr  No Upfront",
+					"Enable monitoring": "disabled",
+					"DT Inbound: Not selected": "0 TB per month",
+					"DT Outbound: Not selected": "0 TB per month",
+					"DT Intra-Region:": "0 TB per month"
+				}
+			}
+		]
+	}
+}

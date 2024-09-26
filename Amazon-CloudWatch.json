@@ -1,0 +1,57 @@
+{
+	"Name": "Amazon CloudWatch",
+	"Total Cost": {
+		"monthly": "8664.30",
+		"upfront": "0.00",
+		"12 months": "103971.60"
+	},
+	"Metadata": {
+		"Currency": "USD",
+		"Locale": "en_US",
+		"Created On": "9/26/2024",
+		"Legal Disclaimer": "AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services.",
+		"Share Url": "https://calculator.aws/#/estimate?id=a77f26a3ca09b405639f581e87df6ffb0877585a"
+	},
+	"Groups": {
+		"Services": [
+			{
+				"Service Name": "Amazon CloudWatch",
+				"Description": "Estimate for Amazon CloudWatch",
+				"Region": "US East (Ohio)",
+				"Status": "",
+				"Service Cost": {
+					"monthly": "8511.00",
+					"upfront": "0.00",
+					"12 months": "102132.00"
+				},
+				"Properties": {
+					"Number of Metrics (includes detailed and custom metrics)": "19000",
+					"GetMetricData: Number of metrics requested": "432000000",
+					"Number of Dashboards": "100"
+				}
+			},
+			{
+				"Service Name": "Amazon EC2 ",
+				"Description": "CloudWatch Agent",
+				"Region": "US East (Ohio)",
+				"Status": "",
+				"Service Cost": {
+					"monthly": "153.30",
+					"upfront": "0.00",
+					"12 months": "1839.60"
+				},
+				"Properties": {
+					"Tenancy": "Shared Instances",
+					"Operating system": "Linux",
+					"Workload": "Consistent, Number of instances: 100",
+					"Advance EC2 instance": "t4g.nano",
+					"Pricing strategy": "3yr  No Upfront",
+					"Enable monitoring": "disabled",
+					"DT Inbound: Not selected": "0 TB per month",
+					"DT Outbound: Not selected": "0 TB per month",
+					"DT Intra-Region:": "0 TB per month"
+				}
+			}
+		]
+	}
+}

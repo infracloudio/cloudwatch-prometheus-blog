@@ -1,0 +1,132 @@
+{
+	"Name": "Self-Managed Prometheus",
+	"Total Cost": {
+		"monthly": "3146.44",
+		"upfront": "0.00",
+		"12 months": "37757.28"
+	},
+	"Metadata": {
+		"Currency": "USD",
+		"Locale": "en_US",
+		"Created On": "9/26/2024",
+		"Legal Disclaimer": "AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services.",
+		"Share Url": "https://calculator.aws/#/estimate?id=cca1c72b0db77c63c13583a965bbcddc28f1b50e"
+	},
+	"Groups": {
+		"Services": [
+			{
+				"Service Name": "Amazon EC2 ",
+				"Description": "Node-Exporter Agents",
+				"Region": "US East (Ohio)",
+				"Status": "",
+				"Service Cost": {
+					"monthly": "306.60",
+					"upfront": "0.00",
+					"12 months": "3679.20"
+				},
+				"Properties": {
+					"Tenancy": "Shared Instances",
+					"Operating system": "Linux",
+					"Workload": "Consistent, Number of instances: 100",
+					"Advance EC2 instance": "t4g.micro",
+					"Pricing strategy": "3yr  No Upfront",
+					"Enable monitoring": "disabled",
+					"DT Inbound: Not selected": "0 TB per month",
+					"DT Outbound: Not selected": "0 TB per month",
+					"DT Intra-Region:": "0 TB per month"
+				}
+			},
+			{
+				"Service Name": "Amazon EC2 ",
+				"Description": "Prometheus and Thanos server",
+				"Region": "US East (Ohio)",
+				"Status": "",
+				"Service Cost": {
+					"monthly": "588.67",
+					"upfront": "0.00",
+					"12 months": "7064.06"
+				},
+				"Properties": {
+					"Tenancy": "Shared Instances",
+					"Operating system": "Linux",
+					"Workload": "Consistent, Number of instances: 2",
+					"Advance EC2 instance": "r6g.2xlarge",
+					"Pricing strategy": "On-Demand Utilization: 100 %Utilized/Month",
+					"Enable monitoring": "disabled",
+					"DT Inbound: Not selected": "0 TB per month",
+					"DT Outbound: Not selected": "0 TB per month",
+					"DT Intra-Region:": "0 TB per month"
+				}
+			},
+			{
+				"Service Name": "Amazon Elastic Block Store (EBS)",
+				"Description": "Storage for Prometheus, Thanos, and Grafana",
+				"Region": "US East (Ohio)",
+				"Status": "",
+				"Service Cost": {
+					"monthly": "37.25",
+					"upfront": "0.00",
+					"12 months": "447.00"
+				},
+				"Properties": {
+					"Number of volumes": "5",
+					"Average duration each instance runs": "730 hours per month",
+					"Storage amount per volume": "40 GB",
+					"Snapshot Frequency": "Daily",
+					"Amount changed per snapshot": "3 GB",
+					"Provisioning IOPS per volume (gp3)": "3000",
+					"General Purpose SSD (gp3) - Throughput": "125 MBps"
+				}
+			},
+			{
+				"Service Name": "S3 Standard",
+				"Description": "Thanos S3 storage",
+				"Region": "US East (Ohio)",
+				"Status": "",
+				"Service Cost": {
+					"monthly": "2183.55",
+					"upfront": "0.00",
+					"12 months": "26202.60"
+				},
+				"Properties": {
+					"S3 Standard storage": "1 TB per month",
+					"PUT, COPY, POST, LIST requests to S3 Standard": "432000000"
+				}
+			},
+			{
+				"Service Name": "Data Transfer",
+				"Description": "Thanos S3 storage",
+				"Region": "US East (Ohio)",
+				"Status": "",
+				"Service Cost": {
+					"monthly": "0.00",
+					"upfront": "0.00",
+					"12 months": "0.00"
+				},
+				"Properties": {}
+			},
+			{
+				"Service Name": "Amazon EC2 ",
+				"Description": "Grafana server",
+				"Region": "US East (Ohio)",
+				"Status": "",
+				"Service Cost": {
+					"monthly": "30.37",
+					"upfront": "0.00",
+					"12 months": "364.42"
+				},
+				"Properties": {
+					"Tenancy": "Shared Instances",
+					"Operating system": "Linux",
+					"Workload": "Consistent, Number of instances: 1",
+					"Advance EC2 instance": "t3.medium",
+					"Pricing strategy": "On-Demand Utilization: 100 %Utilized/Month",
+					"Enable monitoring": "disabled",
+					"DT Inbound: Not selected": "0 TB per month",
+					"DT Outbound: Not selected": "0 TB per month",
+					"DT Intra-Region:": "0 TB per month"
+				}
+			}
+		]
+	}
+}
